@@ -31,7 +31,7 @@ MinimizeButton({
 ------ Tab
      local Tab1o = MakeTab({Name = "W-Azure"})
      
-        local Tab2o = MakeTab({Name = "XeroHub"})
+        local Tab2o = MakeTab({Name = "TrauHub"})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -50,9 +50,6 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc61
   AddButton(Tab2o, {
      Name = "Start",
     Callback = function()
-getgenv().Team = “Thủy quân lục chiến”
-getgenv().Hide_Menu = false
-getgenv().Auto_Execute = false
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/main.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/TrauHub/refs/heads/main/TrauTX"))()			
   end
   })
