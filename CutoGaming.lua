@@ -2,7 +2,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        local Window = MakeWindow({
          Hub = {
-         Title = "Cuto Gaming",
+         Title = "Cuto Gaming Beta V1.0",
          Animation = "Script by P.Trọng and G.Phúc"
          },
         Key = {
