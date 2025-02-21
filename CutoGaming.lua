@@ -19,8 +19,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       }
     }
   })
-
-       MinimizeButton({
+MinimizeButton({
        Image = "http://www.roblox.com/asset/?id=116028795703474",
        Size = {60, 60},
        Color = Color3.fromRGB(10, 10, 10),
@@ -32,7 +31,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 ------ Tab
      local Tab1o = MakeTab({Name = "W-Azure"})
      
-        local Tab2o = MakeTab({Name = "CuttayHub"})
+        local Tab2o = MakeTab({Name = "XeroHub"})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -51,6 +50,9 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc61
   AddButton(Tab2o, {
      Name = "Start",
     Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/diemquy/CutTayHub/refs/heads/main/Cuttayhub-mizu.lua"))()
+getgenv().Team = “Thủy quân lục chiến”
+getgenv().Hide_Menu = false
+getgenv().Auto_Execute = false
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/main.lua"))()
   end
   })
