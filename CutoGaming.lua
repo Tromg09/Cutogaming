@@ -32,6 +32,8 @@ MinimizeButton({
      local Tab1o = MakeTab({Name = "W-Azure"})
      
         local Tab2o = MakeTab({Name = "AnDepZaiHubBeta"})
+
+local Tab3o = MakeTab({Name = "Main Fram"})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -53,3 +55,68 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc61
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiHubBeta/refs/heads/main/AnDepZaiHubNewUpdated.lua"))()
   end
   })
+
+     
+     
+-------TOGGLE 
+
+     Toggle = AddToggle(Tab1o, {
+      Name = "a",
+      Default = false,
+      Callback = function()
+     end
+    })
+    
+------- BUTTON
+    
+    AddButton(Tab3o, {
+     Name = "FIX LAG",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
+  end
+  })
+     AddButton(Tab3o, {
+     Name = "SCRIPT",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Arceus%20X%20V3"))()
+  end
+  })   AddButton(Tab3o, {
+     Name = "2",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
+  end
+  })   AddButton(Tab3o, {
+     Name = "3",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
+  end
+  })   AddButton(Tab3o, {
+     Name = "4",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
+  end
+  })   AddButton(Tab3o, {
+     Name = "FIX LAG",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
+  end
+  })
+----- Dropdown 
+
+  Dropdown = AddDropdown(Tab3o, {
+     Name = "a",
+     Options = {"Test 1", "Test 2", "Test 3", "Test 4"},
+     Default = "Melee",
+     Callback = function()
+     end
+   })
+
+----- Section 
+   
+   Section = AddSection(Tab3o, {"a"})          
+
+----- Paragraph 
+                    
+   Paragraph = AddParagraph(Farm, {"a", ""})
+   
+   
