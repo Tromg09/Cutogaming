@@ -33,7 +33,7 @@ local Tab1o = MakeTab({Name = "Main Fram"})
 -------TOGGLE 
 
      Toggle = AddToggle(Tab1o, {
-      Name = "a",
+      Name = "Auto Fram Level",
       Default = false,
       Callback = function()
      end
@@ -53,17 +53,17 @@ local Tab1o = MakeTab({Name = "Main Fram"})
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Arceus%20X%20V3"))()
   end
   })   AddButton(Tab1o, {
-     Name = "2",
+     Name = "Fix Lag",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
   end
   })   AddButton(Tab1o, {
-     Name = "3",
+     Name = "Fix Lag",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
   end
   })   AddButton(Tab1o, {
-     Name = "4",
+     Name = "Fix Lag",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
   end
@@ -76,7 +76,7 @@ local Tab1o = MakeTab({Name = "Main Fram"})
 ----- Dropdown 
 
   Dropdown = AddDropdown(Tab1o, {
-     Name = "a",
+     Name = "Melle",
      Options = {"Test 1", "Test 2", "Test 3", "Test 4"},
      Default = "Melee",
      Callback = function()
