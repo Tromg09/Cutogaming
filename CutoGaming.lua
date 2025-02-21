@@ -31,7 +31,7 @@ MinimizeButton({
 ------ Tab
      local Tab1o = MakeTab({Name = "W-Azure"})
      
-        local Tab2o = MakeTab({Name = "TrauHub"})
+        local Tab2o = MakeTab({Name = "CuttayHub"})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -50,6 +50,6 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc61
   AddButton(Tab2o, {
      Name = "Start",
     Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/TrauHub/refs/heads/main/TrauTX"))()			
+loadstring(game:HttpGet("https://raw.githubusercontent.com/diemquy/CutTayHub/refs/heads/main/Cuttayhub-mizu.lua"))()		
   end
   })
