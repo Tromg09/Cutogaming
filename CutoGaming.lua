@@ -33,9 +33,10 @@ local Tab1o = MakeTab({Name = "Main Fram"})
 -------TOGGLE 
 
      Toggle = AddToggle(Tab1o, {
-      Name = "Auto Fram Level",
+      Name = "Auto Fram Chest",
       Default = false,
       Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Zunes-Bypassed/NOPE/main/Min.lua"))()			
      end
     })
     
